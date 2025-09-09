@@ -86,7 +86,7 @@ export default function Testimonials() {
                       transition={{ duration: 0.8, delay: 0.4 + index * 0.2 }}
                       viewport={{ once: true }}
                     >
-                      "{testimonial.text}"
+                      &ldquo;{testimonial.text}&rdquo;
                     </motion.p>
 
                     <motion.div 
