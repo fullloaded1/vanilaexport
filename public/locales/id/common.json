@@ -6,13 +6,13 @@
     "contact": "Kontak"
   },
   "hero": {
-    "title": "Ekspor Vanila Premium dari Indonesia",
-    "subtitle": "Menyuplai dunia dengan vanila terbaik langsung dari Indonesia.",
-    "cta": "Dapatkan Penawaran"
+    "title": "Katalog Produk Natura Vanilla",
+    "subtitle": "Temukan produk vanila premium langsung dari Indonesia.",
+    "cta": "Lihat Katalog"
   },
   "about": {
     "title": "Tentang Kami",
-    "description": "Kami adalah eksportir vanila terpercaya dari Indonesia yang berkomitmen menghadirkan biji vanila berkualitas terbaik ke seluruh dunia. Dengan pengalaman puluhan tahun dalam pertanian berkelanjutan dan distribusi global, kami memastikan setiap biji memenuhi standar internasional."
+    "description": "Kami adalah Natura Vanilla, eksportir vanila terpercaya dari Indonesia yang berkomitmen menghadirkan biji vanila berkualitas terbaik ke seluruh dunia. Dengan pengalaman puluhan tahun dalam pertanian berkelanjutan dan distribusi global, kami memastikan setiap biji memenuhi standar internasional."
   },
   "features": {
     "title": "Mengapa Memilih Kami",
@@ -24,9 +24,9 @@
       "title": "Pengiriman Internasional",
       "description": "Pengiriman ke seluruh dunia dengan logistik terkontrol suhu"
     },
-    "trusted": {
-      "title": "Dipercaya Mitra Dunia",
-      "description": "Dipercaya oleh perusahaan makanan dan distributor terkemuka di dunia"
+    "bestValue": {
+      "title": "Harga Terbaik",
+      "description": "Harga kompetitif dengan kualitas terbaik di kelasnya"
     },
     "sustainable": {
       "title": "Pertanian Berkelanjutan",
@@ -35,44 +35,26 @@
   },
   "products": {
     "title": "Produk Kami",
-    "vanillaBeans": {
-      "title": "Biji Vanila",
-      "description": "Biji vanila premium dengan aroma dan rasa yang kaya"
+    "planifolia": {
+      "title": "Vanili Planifolia",
+      "description": "Biji vanili planifolia premium dengan aroma khas dan rasa yang intens"
     },
-    "extract": {
-      "title": "Ekstrak Vanila",
-      "description": "Ekstrak vanila murni yang dibuat dari biji terbaik kami"
+    "tahitensis": {
+      "title": "Vanili Tahitensis",
+      "description": "Vanili tahitensis eksotis dengan aroma bunga dan buah yang khas"
     },
     "powder": {
-      "title": "Bubuk Vanila",
-      "description": "Bubuk vanila yang sempurna untuk memanggang dan memasak"
+      "title": "Bubuk Vanili",
+      "description": "Bubuk vanili pilihan untuk kebutuhan memasak dan kue"
     }
   },
   "globalReach": {
     "title": "Jangkauan Global",
-    "description": "Kami mengekspor biji vanila premium ke lebih dari 30 negara di seluruh dunia, memastikan pengiriman segar dan kualitas yang konsisten."
-  },
-  "testimonials": {
-    "title": "Apa Kata Klien Kami",
-    "client1": {
-      "name": "Sarah Johnson",
-      "company": "Gourmet Foods Inc.",
-      "text": "Kualitas biji vanila dari pemasok ini luar biasa. Pelanggan kami menyukai rasa dan aromanya yang kaya."
-    },
-    "client2": {
-      "name": "Michael Chen",
-      "company": "Artisan Bakery Co.",
-      "text": "Kualitas konsisten dan pengiriman yang dapat diandalkan. Mereka telah menjadi pemasok vanila terpercaya kami selama lebih dari 5 tahun."
-    },
-    "client3": {
-      "name": "Emma Rodriguez",
-      "company": "Premium Ice Cream Ltd.",
-      "text": "Biji vanila terbaik yang pernah kami gunakan. Profil rasa tidak tertandingi di pasar."
-    }
+    "description": "Pengiriman dapat dilakukan ke seluruh negara di dunia dengan pengiriman yang aman dan menjamin ketahanan produk sampai di negara tujuan."
   },
   "contact": {
-    "title": "Mulai Pemesanan",
-    "subtitle": "Siap merasakan vanila Indonesia terbaik? Hubungi kami hari ini.",
+    "title": "Pemesanan",
+    "subtitle": "Untuk informasi lebih lanjut dan pemesanan, silakan hubungi kami.",
     "form": {
       "name": "Nama",
       "email": "Email",
@@ -82,13 +64,13 @@
     "info": {
       "phone": "Telepon",
       "email": "Email",
-      "address": "Alamat"
+      "address": "Lokasi"
     }
   },
   "footer": {
-    "description": "Eksportir vanila Indonesia terkemuka yang berkomitmen pada kualitas dan keberlanjutan.",
+    "description": "Natura Vanilla - Komitmen pada kualitas dan keberlanjutan.",
     "quickLinks": "Tautan Cepat",
     "contactInfo": "Info Kontak",
-    "copyright": "© 2024 Vanilla Export Indonesia. Semua hak dilindungi."
+    "copyright": "© 2024 Natura Vanilla. Semua hak dilindungi."
   }
 }

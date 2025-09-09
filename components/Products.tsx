@@ -11,21 +11,21 @@ export default function Products() {
   const products = [
     {
       icon: Coffee,
-      title: t('products.vanillaBeans.title'),
-      description: t('products.vanillaBeans.description'),
-      image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      title: t('products.planifolia.title'),
+      description: t('products.planifolia.description'),
+      image: 'https://images.unsplash.com/photo-1598137203980-945997109a2e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
     },
     {
       icon: Droplets,
-      title: t('products.extract.title'),
-      description: t('products.extract.description'),
-      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      title: t('products.tahitensis.title'),
+      description: t('products.tahitensis.description'),
+      image: 'https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
     },
     {
       icon: Package,
       title: t('products.powder.title'),
       description: t('products.powder.description'),
-      image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
+      image: 'https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80',
     },
   ]
 

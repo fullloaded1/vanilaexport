@@ -21,8 +21,8 @@ export default function About() {
     },
     {
       icon: Users,
-      title: t('features.trusted.title'),
-      description: t('features.trusted.description'),
+      title: t('features.bestValue.title'),
+      description: t('features.bestValue.description'),
     },
     {
       icon: TreePine,

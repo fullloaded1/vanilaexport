@@ -38,7 +38,6 @@ export default function Home() {
         <About />
         <Products />
         <GlobalReach />
-        <Testimonials />
         <Contact />
         <Footer />
         <ScrollToTop />

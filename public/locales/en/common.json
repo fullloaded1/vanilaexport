@@ -6,9 +6,9 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Premium Indonesian Vanilla Export",
-    "subtitle": "Supplying the world with the finest vanilla beans directly from Indonesia.",
-    "cta": "Get a Quote"
+    "title": "Natura Vanilla Product Catalog",
+    "subtitle": "Discover our premium vanilla products directly from Indonesia.",
+    "cta": "View Catalog"
   },
   "about": {
     "title": "About Us",
@@ -24,9 +24,9 @@
       "title": "Global Shipping",
       "description": "Worldwide delivery with temperature-controlled logistics"
     },
-    "trusted": {
-      "title": "Trusted by Partners",
-      "description": "Trusted by leading food companies and distributors globally"
+    "bestValue": {
+      "title": "Best Value Pricing",
+      "description": "Competitive prices with exceptional quality for the best value in the market"
     },
     "sustainable": {
       "title": "Sustainable Farming",
@@ -35,13 +35,13 @@
   },
   "products": {
     "title": "Our Products",
-    "vanillaBeans": {
-      "title": "Vanilla Beans",
-      "description": "Premium grade vanilla beans with rich aroma and flavor"
+    "planifolia": {
+      "title": "Vanilla Planifolia",
+      "description": "Premium grade vanilla planifolia beans with rich aroma and intense flavor"
     },
-    "extract": {
-      "title": "Vanilla Extract",
-      "description": "Pure vanilla extract made from our finest beans"
+    "tahitensis": {
+      "title": "Vanilla Tahitensis",
+      "description": "Exotic vanilla tahitensis with floral notes and tropical fragrance"
     },
     "powder": {
       "title": "Vanilla Powder",
@@ -50,7 +50,7 @@
   },
   "globalReach": {
     "title": "Global Reach",
-    "description": "We export our premium vanilla beans to over 30 countries worldwide, ensuring fresh delivery and consistent quality."
+    "description": "Shipping can be done to all countries worldwide with safe delivery and guaranteed product quality preservation until it reaches the destination country."
   },
   "testimonials": {
     "title": "What Our Clients Say",
@@ -80,7 +80,8 @@
       "submit": "Send Message"
     },
     "info": {
-      "phone": "Phone",
+      "phone": "Contact Us",
+      "whatsapp": "Chat on WhatsApp",
       "email": "Email",
       "address": "Address"
     }
@@ -89,6 +90,6 @@
     "description": "Leading Indonesian vanilla exporter committed to quality and sustainability.",
     "quickLinks": "Quick Links",
     "contactInfo": "Contact Info",
-    "copyright": "© 2024 Vanilla Export Indonesia. All rights reserved."
+    "copyright": "© 2024 Natura Vanilla. All rights reserved."
   }
 }

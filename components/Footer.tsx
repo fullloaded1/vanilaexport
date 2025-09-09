@@ -32,12 +32,8 @@ export default function Footer() {
             viewport={{ once: true }}
             className="md:col-span-2"
           >
-            <h3 className="text-3xl font-bold font-display mb-6 bg-gradient-to-r from-white to-warm-200 bg-clip-text text-transparent">
-              Vanilla Export Indonesia
-            </h3>
-            <p className="text-warm-200 mb-8 leading-relaxed font-light text-lg">
-              {t('footer.description')}
-            </p>
+            <h3 className="text-lg font-semibold text-earth-800 mb-4">Natura Vanilla</h3>
+            <p className="text-earth-600">Indonesia</p>
             <div className="space-y-4">
               <motion.div 
                 className="flex items-center space-x-3"
@@ -45,7 +41,9 @@ export default function Footer() {
                 transition={{ duration: 0.2 }}
               >
                 <Phone className="w-5 h-5 text-warm-300" />
-                <span className="text-warm-100 font-light">+62 21 1234 5678</span>
+                <a href="https://wa.me/6285144920078" target="_blank" rel="noopener noreferrer" className="text-earth-600 hover:text-primary-600 transition-colors">
+                  +62 851 4492 0078
+                </a>
               </motion.div>
               <motion.div 
                 className="flex items-center space-x-3"
@@ -53,7 +51,9 @@ export default function Footer() {
                 transition={{ duration: 0.2 }}
               >
                 <Mail className="w-5 h-5 text-warm-300" />
-                <span className="text-warm-100 font-light">info@vanillaexport.com</span>
+                <a href="mailto:indo@naturavanilla.net" className="text-earth-600 hover:text-primary-600 transition-colors">
+                  indo@naturavanilla.net
+                </a>
               </motion.div>
               <motion.div 
                 className="flex items-start space-x-3"

@@ -25,88 +25,100 @@ export default function Hero() {
         style={{ y }}
       >
         <div
-          className="w-full h-full bg-cover bg-center bg-no-repeat scale-110"
+          className="w-full h-full bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')"
+            backgroundImage: "url('/our-vanilla-farm-on-traditiona_waifu2x_photo_noise3_scale.webp')",
+            backgroundPosition: 'center 40%',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
           }}
         />
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary-900/60 via-primary-800/40 to-warm-900/50" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary-900/70 via-primary-800/40 to-warm-900/60" />
       </motion.div>
 
       {/* Content with Fade Out on Scroll */}
       <motion.div 
-        className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto"
+        className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto py-20"
         style={{ opacity }}
       >
-        <FloatingElement intensity={5} duration={4}>
+        <div className="space-y-8">
           <motion.div
-            initial={{ opacity: 0, y: 50, scale: 0.9 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="space-y-6"
           >
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold font-display mb-6 leading-tight text-shadow-lg bg-gradient-to-r from-white via-warm-100 to-secondary-200 bg-clip-text text-transparent">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-display leading-tight text-white">
               {t('hero.title')}
             </h1>
+            
+            <div className="h-1 w-24 bg-gradient-to-r from-primary-400 to-warm-300 mx-auto rounded-full"></div>
+            
+            <p className="text-lg sm:text-xl text-warm-100 max-w-2xl mx-auto leading-relaxed">
+              {t('hero.subtitle')}
+            </p>
           </motion.div>
-        </FloatingElement>
 
-        <motion.p
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="text-xl sm:text-2xl mb-8 text-warm-100 max-w-3xl mx-auto leading-relaxed text-shadow font-light"
-        >
-          {t('hero.subtitle')}
-        </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, y: 30, scale: 0.9 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.6, type: "spring", stiffness: 100 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center items-center"
-        >
           <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="pt-4"
           >
-            <Button
-              size="lg"
-              onClick={() => scrollToSection('contact')}
-              className="bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white px-10 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transition-all duration-300 border border-primary-500/20"
+            <a 
+              href="https://wa.me/6285144920078" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-8 py-3 text-base font-medium text-primary-700 bg-white rounded-md shadow-lg hover:bg-warm-50 hover:shadow-xl transition-all duration-300"
             >
               {t('hero.cta')}
-            </Button>
+              <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fillRule="evenodd" d="M16.707 3.293a1 1 0 010 1.414L8.414 13H12a1 1 0 110 2H5a1 1 0 01-1-1V8a1 1 0 112 0v3.586l8.293-8.293a1 1 0 011.414 0z" clipRule="evenodd" />
+              </svg>
+            </a>
           </motion.div>
-        </motion.div>
+        </div>
       </motion.div>
 
-      {/* Scroll Indicator with Enhanced Animation */}
+      {/* Scroll Indicator */}
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.8 }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.6 }}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10"
       >
         <motion.button
           onClick={() => scrollToSection('about')}
-          className="text-white hover:text-primary-300 transition-colors"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
+          className="text-white hover:text-warm-200 transition-colors"
+          aria-label="Scroll down"
         >
           <motion.div
             animate={{ 
               y: [0, 10, 0],
-              opacity: [0.7, 1, 0.7]
             }}
             transition={{ 
-              duration: 2, 
+              duration: 2,
               repeat: Infinity,
               ease: "easeInOut"
             }}
+            className="flex flex-col items-center space-y-1"
           >
-            <ArrowDown className="w-6 h-6" />
+            <span className="text-sm font-light tracking-wider">EXPLORE MORE</span>
+            <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center p-1">
+              <motion.div 
+                className="w-1 h-2 bg-white rounded-full"
+                animate={{ 
+                  y: [0, 8],
+                  opacity: [0.6, 1, 0.6]
+                }}
+                transition={{ 
+                  duration: 1.5,
+                  repeat: Infinity,
+                  repeatType: "loop"
+                }}
+              />
+            </div>
           </motion.div>
         </motion.button>
       </motion.div>

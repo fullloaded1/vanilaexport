@@ -8,9 +8,21 @@ export default function GlobalReach() {
   const { t } = useTranslation('common')
 
   const stats = [
-    { icon: Globe, value: '30+', label: 'Countries' },
-    { icon: Truck, value: '1000+', label: 'Shipments' },
-    { icon: MapPin, value: '50+', label: 'Partners' },
+    { 
+      icon: Globe, 
+      value: '100+', 
+      label: t('globalReach.stats.countries', 'Countries') 
+    },
+    { 
+      icon: Truck, 
+      value: '5000+', 
+      label: t('globalReach.stats.shipments', 'Shipments') 
+    },
+    { 
+      icon: MapPin, 
+      value: '100%', 
+      label: t('globalReach.stats.satisfaction', 'Satisfaction') 
+    },
   ]
 
   return (
@@ -76,10 +88,12 @@ export default function GlobalReach() {
             >
               <MapPin className="w-20 h-20 mx-auto mb-6 text-warm-200" />
             </motion.div>
-            <h3 className="text-3xl font-bold mb-6 font-display bg-gradient-to-r from-white to-warm-200 bg-clip-text text-transparent">Global Distribution Network</h3>
-            <p className="text-warm-100 max-w-2xl mx-auto leading-relaxed font-light">
-              Our vanilla beans reach customers across North America, Europe, Asia, and Australia through our established distribution network.
-            </p>
+            <h3 className="text-3xl font-bold mb-6 font-display bg-gradient-to-r from-white to-warm-200 bg-clip-text text-transparent">
+            {t('globalReach.networkTitle', 'Worldwide Shipping')}
+          </h3>
+          <p className="text-warm-100 max-w-2xl mx-auto leading-relaxed font-light">
+            {t('globalReach.networkDescription', 'We ship to all countries worldwide with safe and secure delivery, ensuring the highest quality of our vanilla products upon arrival.')}
+          </p>
           </div>
         </motion.div>
       </div>
