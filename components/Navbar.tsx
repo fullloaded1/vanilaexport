@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import { useTranslation } from 'next-i18next'
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
@@ -94,12 +95,17 @@ export default function Navbar() {
           >
             <div className="flex items-center space-x-3">
               <div className="h-14 w-14 md:h-16 md:w-16 flex items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-primary-500 to-primary-600 p-1.5 shadow-lg border-2 border-primary-400/30">
-                <img 
-                  src="/Natura vanilla.png" 
-                  alt="Natura Vanilla Logo" 
-                  className="h-full w-full object-contain"
-                  style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))' }}
-                />
+                <div className="relative h-full w-full">
+                  <Image 
+                    src="/Natura vanilla.png" 
+                    alt="Natura Vanilla Logo" 
+                    fill
+                    sizes="(max-width: 768px) 3.5rem, 4rem"
+                    className="object-contain"
+                    style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))' }}
+                    priority
+                  />
+                </div>
               </div>
               <h1 className="hidden md:block text-2xl font-bold font-display bg-gradient-to-r from-primary-700 to-earth-800 bg-clip-text text-transparent">
                 <span className="block text-sm font-normal text-primary-500">PT. Natura Vanilla</span>
