@@ -8,9 +8,11 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com', 'via.placeholder.com'],
   },
+  // Enable ESLint to run during builds on Vercel
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
 }
 
 module.exports = nextConfig
+

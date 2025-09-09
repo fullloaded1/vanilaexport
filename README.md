@@ -129,3 +129,4 @@ This project is licensed under the MIT License.
 ## Support
 
 For support, email info@vanillaexport.com or create an issue in the repository.
+
