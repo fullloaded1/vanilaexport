@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Premium Indonesian Vanilla Export",
+    "subtitle": "Supplying the world with the finest vanilla beans directly from Indonesia.",
+    "cta": "Get a Quote"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a trusted Indonesian vanilla exporter committed to delivering the highest quality vanilla beans worldwide. With decades of experience in sustainable farming and global distribution, we ensure every bean meets international standards."
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "organic": {
+      "title": "Organic Quality",
+      "description": "Certified organic vanilla beans grown without harmful chemicals"
+    },
+    "shipping": {
+      "title": "Global Shipping",
+      "description": "Worldwide delivery with temperature-controlled logistics"
+    },
+    "trusted": {
+      "title": "Trusted by Partners",
+      "description": "Trusted by leading food companies and distributors globally"
+    },
+    "sustainable": {
+      "title": "Sustainable Farming",
+      "description": "Environmentally responsible farming practices"
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "vanillaBeans": {
+      "title": "Vanilla Beans",
+      "description": "Premium grade vanilla beans with rich aroma and flavor"
+    },
+    "extract": {
+      "title": "Vanilla Extract",
+      "description": "Pure vanilla extract made from our finest beans"
+    },
+    "powder": {
+      "title": "Vanilla Powder",
+      "description": "Ground vanilla powder perfect for baking and cooking"
+    }
+  },
+  "globalReach": {
+    "title": "Global Reach",
+    "description": "We export our premium vanilla beans to over 30 countries worldwide, ensuring fresh delivery and consistent quality."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "client1": {
+      "name": "Sarah Johnson",
+      "company": "Gourmet Foods Inc.",
+      "text": "The quality of vanilla beans from this supplier is exceptional. Our customers love the rich flavor and aroma."
+    },
+    "client2": {
+      "name": "Michael Chen",
+      "company": "Artisan Bakery Co.",
+      "text": "Consistent quality and reliable delivery. They've been our trusted vanilla supplier for over 5 years."
+    },
+    "client3": {
+      "name": "Emma Rodriguez",
+      "company": "Premium Ice Cream Ltd.",
+      "text": "The best vanilla beans we've ever used. The flavor profile is unmatched in the market."
+    }
+  },
+  "contact": {
+    "title": "Start Your Order",
+    "subtitle": "Ready to experience the finest Indonesian vanilla? Get in touch with us today.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    }
+  },
+  "footer": {
+    "description": "Leading Indonesian vanilla exporter committed to quality and sustainability.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "copyright": "© 2024 Vanilla Export Indonesia. All rights reserved."
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "products": "Produk",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Ekspor Vanila Premium dari Indonesia",
+    "subtitle": "Menyuplai dunia dengan vanila terbaik langsung dari Indonesia.",
+    "cta": "Dapatkan Penawaran"
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "description": "Kami adalah eksportir vanila terpercaya dari Indonesia yang berkomitmen menghadirkan biji vanila berkualitas terbaik ke seluruh dunia. Dengan pengalaman puluhan tahun dalam pertanian berkelanjutan dan distribusi global, kami memastikan setiap biji memenuhi standar internasional."
+  },
+  "features": {
+    "title": "Mengapa Memilih Kami",
+    "organic": {
+      "title": "Kualitas Organik",
+      "description": "Biji vanila organik bersertifikat yang ditanam tanpa bahan kimia berbahaya"
+    },
+    "shipping": {
+      "title": "Pengiriman Internasional",
+      "description": "Pengiriman ke seluruh dunia dengan logistik terkontrol suhu"
+    },
+    "trusted": {
+      "title": "Dipercaya Mitra Dunia",
+      "description": "Dipercaya oleh perusahaan makanan dan distributor terkemuka di dunia"
+    },
+    "sustainable": {
+      "title": "Pertanian Berkelanjutan",
+      "description": "Praktik pertanian yang bertanggung jawab terhadap lingkungan"
+    }
+  },
+  "products": {
+    "title": "Produk Kami",
+    "vanillaBeans": {
+      "title": "Biji Vanila",
+      "description": "Biji vanila premium dengan aroma dan rasa yang kaya"
+    },
+    "extract": {
+      "title": "Ekstrak Vanila",
+      "description": "Ekstrak vanila murni yang dibuat dari biji terbaik kami"
+    },
+    "powder": {
+      "title": "Bubuk Vanila",
+      "description": "Bubuk vanila yang sempurna untuk memanggang dan memasak"
+    }
+  },
+  "globalReach": {
+    "title": "Jangkauan Global",
+    "description": "Kami mengekspor biji vanila premium ke lebih dari 30 negara di seluruh dunia, memastikan pengiriman segar dan kualitas yang konsisten."
+  },
+  "testimonials": {
+    "title": "Apa Kata Klien Kami",
+    "client1": {
+      "name": "Sarah Johnson",
+      "company": "Gourmet Foods Inc.",
+      "text": "Kualitas biji vanila dari pemasok ini luar biasa. Pelanggan kami menyukai rasa dan aromanya yang kaya."
+    },
+    "client2": {
+      "name": "Michael Chen",
+      "company": "Artisan Bakery Co.",
+      "text": "Kualitas konsisten dan pengiriman yang dapat diandalkan. Mereka telah menjadi pemasok vanila terpercaya kami selama lebih dari 5 tahun."
+    },
+    "client3": {
+      "name": "Emma Rodriguez",
+      "company": "Premium Ice Cream Ltd.",
+      "text": "Biji vanila terbaik yang pernah kami gunakan. Profil rasa tidak tertandingi di pasar."
+    }
+  },
+  "contact": {
+    "title": "Mulai Pemesanan",
+    "subtitle": "Siap merasakan vanila Indonesia terbaik? Hubungi kami hari ini.",
+    "form": {
+      "name": "Nama",
+      "email": "Email",
+      "message": "Pesan",
+      "submit": "Kirim Pesan"
+    },
+    "info": {
+      "phone": "Telepon",
+      "email": "Email",
+      "address": "Alamat"
+    }
+  },
+  "footer": {
+    "description": "Eksportir vanila Indonesia terkemuka yang berkomitmen pada kualitas dan keberlanjutan.",
+    "quickLinks": "Tautan Cepat",
+    "contactInfo": "Info Kontak",
+    "copyright": "© 2024 Vanilla Export Indonesia. Semua hak dilindungi."
+  }
+}
