@@ -121,7 +121,7 @@ export default function Contact() {
                       </svg>
                     </div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Chat with Us on WhatsApp</h3>
-                    <p className="text-gray-600 mb-6">We&apos;re available 24/7 to answer your questions</p>
+                    <p className="text-gray-600 mb-6">We are available 24/7 to answer your questions</p>
                   </div>
                   
                   <button
@@ -148,13 +148,13 @@ export default function Contact() {
                       <Mail className="h-8 w-8 text-blue-600" />
                     </div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Send us an Email</h3>
-                    <p className="text-gray-600 mb-6">We&apos;ll get back to you within 24 hours</p>
+                    <p className="text-gray-600 mb-6">We will get back to you within 24 hours</p>
                   </div>
 
                   {isSuccess ? (
                     <div className="p-4 mb-6 bg-green-50 text-green-700 rounded-lg flex items-center">
                       <CheckCircle className="w-5 h-5 mr-2 flex-shrink-0" />
-                      <span>Your message has been sent successfully! We&apos;ll get back to you soon.</span>
+                      <span>Your message has been sent successfully! We will get back to you soon.</span>
                     </div>
                   ) : (
                     <form ref={form} onSubmit={handleSubmit} className="space-y-6">

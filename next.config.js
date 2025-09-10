@@ -11,6 +11,9 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   swcMinify: false,
+  experimental: {
+    forceSwcTransforms: false,
+  },
 }
 
 module.exports = nextConfig
