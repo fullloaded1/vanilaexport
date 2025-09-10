@@ -15,7 +15,7 @@ export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
-  const [activeTab, setActiveTab] = useState('whatsapp'); // 'whatsapp' or 'email'
+  const [activeTab, setActiveTab] = useState('whatsapp'); // whatsapp or email
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
